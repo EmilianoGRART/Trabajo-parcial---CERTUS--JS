@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports Brothers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+    </style>
+</head>
+
+<body>
+    <!--Cabecera de la pagina -->
+    <header>
+        <div class="textoheader">
+            <h1>SportsBros Peru</h1>
+        </div>
+    </header>
+    <!--Navegacion-->
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li id="navegacionInicio" class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+              </li>
+              <li id="navegacionContacto" class="nav-item">
+                <a class="nav-link" href="/contacto.html">Contacto</a>
+              </li>
+              <li id="registro" class="nav-item">
+                <a class="nav-link" href="formulario.html">Registrarse</a>
+              </li>
+    
+              
+    
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-success" 
+              type="button"
+              data-bs-toggle="modal" data-bs-target="#ventanaCarrito"
+              
+              >Carrito</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <!--MODAL-->
+
+      <div id="ventanaCarrito" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Tu carrito</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Tu carrito esta vacio</p>
+            </div>
+            <div class="modal-footer">
+              <button id="limpiar" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Limpiar</button>
+              <button type="button" class="btn btn-primary">
+                <a href="https://wa.link/4c71xu">Realizar tu compra</a>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+    <!--NOTIFICACION-->
+
+    <p class="notificacion">Ventas de productos catalogo marzo</p>
+
+    <!-- PARTE PRINCIPAL -->
+    <main class="container">
+        <section id="catalogo">
+            <section id="catalogo">
+
+                <section id="catalogo">
+
+                    <article class="col">
+                        <h3>Kit de Box Sportbro: Guantes y saco de box</h3>
+                        <hr />
+                        <picture class="caja">
+                            <img src="imagenes/-set-saco-de-box-lleno-1-m-guantes-vendas-soporte-cad.jpg"
+                                alt="producto" />
+                        </picture>
+                        <hr />
+                        <div class="descripcion">
+                            <h4>Adquierelo a tan solo:</h4>
+                            <span class="precioAnterior">S/.329</span>
+                            <p class="precioDespues">S/.219</p>
+                            <hr />
+                            <button class="btn-comprar">Agregar</button>
+                        </div>
+                    </article>
+
+                    <article class="col">
+                        <h3>Set de pesas SportBro en acabados metalicos</h3>
+                        <hr />
+                        <picture>
+                            <img src="imagenes/pesasmetalicas.jpg" alt="producto" />
+                        </picture>
+                        <hr />
+                        <div class="descripcion">
+                            <h4>Adquierelo a tan solo</h4>
+                            <span class="precioAnterior">S/.419</span>
+                            <p class="precioDespues">S/.279</p>
+                            <hr />
+                            <button class="btn-comprar">Agregar</button>
+                        </div>
+                    </article>
+
+                    <article class="col">
+                        <h3>Pesas de caucho de 5 Kilos</h3>
+                        <hr />
+                        <picture>
+                            <img src="imagenes/pesasdecaucho.jpg" alt="producto" />
+                        </picture>
+                        <hr />
+                        <div class="descripcion">
+                            <h4>Adquierelo a tan solo</h4>
+                            <span class="precioAnterior">S/.329</span>
+                            <p class="precioDespues">S/.219</p>
+                            <hr />
+                            <button class="btn-comprar">Agregar</button>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <h3>Set de pesas de goma</h3>
+                        <hr />
+                        <picture>
+                            <img src="imagenes/pesas-de-goma.jpg" alt="producto" />
+                        </picture>
+                        <hr />
+                        <div class="descripcion">
+                            <h4>Adquierelo a tan solo</h4>
+                            <span class="precioAnterior">S/.329</span>
+                            <p class="precioDespues">S/.219</p>
+                            <hr />
+                            <button class="btn-comprar">Agregar</button>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <h3>Maquina Trotadora: MTDPKRD105C</h3>
+                        <hr />
+                        <picture>
+                            <img src="imagenes/maquinatrotadora.jpg" alt="producto" />
+                        </picture>
+                        <hr />
+                        <div class="descripcion">
+                            <h4>Adquierelo a tan solo</h4>
+                            <span class="precioAnterior">S/.329</span>
+                            <p class="precioDespues">S/.219</p>
+                            <hr />
+                            <button class="btn-comprar">Agregar</button>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <h3>Pesas 20kg Mancuerna Plastificada y Adaptador</h3>
+                        <hr />
+                        <picture>
+                            <img src="imagenes/pesasdeplastico.jpg" alt="producto" />
+                        </picture>
+                        <hr />
+                        <div class="descripcion">
+                            <h4>Adquierelo a tan solo</h4>
+                            <span class="precioAnterior">S/.329</span>
+                            <p class="precioDespues">S/.219</p>
+                            <hr />
+                            <button class="btn-comprar">Agregar</button>
+                        </div>
+                    </article>
+
+                    <article class="col">
+                        <h3>Set de mancuernas de goma Bodytone</h3>
+                        <hr />
+                        <picture>
+                            <img src="imagenes/setdemancuernasgoma.jpg" alt="producto" />
+                        </picture>
+                        <hr />
+                        <div class="descripcion">
+                            <h4>Adquierelo a tan solo</h4>
+                            <span class="precioAnterior">S/.329</span>
+                            <p class="precioDespues">S/.219</p>
+                            <hr />
+                            <button class="btn-comprar">Agregar</button>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <h3>Kettle Bell 5kg <br />Bodytone</h3>
+                        <hr />
+                        <picture>
+                            <img src="imagenes/kettlebell.jpg" alt="producto" />
+                        </picture>
+                        <hr />
+                        <div class="descripcion">
+                            <h4>Adquierelo a tan solo</h4>
+                            <span class="precioAnterior">S/.120</span>
+                            <p class="precioDespues">S/.79</p>
+                            <hr />
+                            <button class="btn-comprar">Agregar</button>
+                        </div>
+                    </article>
+                    <article class="col">
+                        <h3>Kit de Box Sportbro: Guantes y saco de box</h3>
+                        <hr />
+                        <picture>
+                            <img src="imagenes/-set-saco-de-box-lleno-1-m-guantes-vendas-soporte-cad.jpg"
+                                alt="producto" />
+                        </picture>
+                        <hr />
+                        <div class="descripcion">
+                            <h4>Adquierelo a tan solo</h4>
+                            <span class="precioAnterior">S/.329</span>
+                            <p class="precioDespues">S/.219</p>
+                            <hr />
+                            <button class="btn-comprar">Agregar</button>
+                        </div>
+                    </article>
+                </section>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+<!--JAVASCRIPT-->
+<script src="js/codigo.js"></script>
+
+</html>

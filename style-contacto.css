@@ -1,0 +1,53 @@
+*{ 
+    margin: 0px; 
+    padding: 0px;
+}
+header{
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navegacion{
+    background-color: #40121A;
+    border-bottom: solid 2px black;
+}
+
+.navegacion ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.navegacion ul li:hover{
+    background-color: rgba(229, 229, 229, 0.266);
+    cursor: pointer;}
+
+ul li{
+        color: white;
+        padding: 10px 30px;
+        
+    }
+    a {
+        color: white;
+        text-decoration: none;
+      }
+
+
+.navegacion ul li:hover{
+    background-color: rgba(240, 248, 255, 0.621);
+}
+
+main{ 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formulario{
+    padding: 10px;
+}
+

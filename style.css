@@ -1,0 +1,135 @@
+/*GENERALES*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/*CABECERA Y NAVEGACION*/
+header{
+    height: 30vh;
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1619252584172-a83a949b6efd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoheader{
+    text-align: center;    
+    font-weight:bolder;
+    font-size: 3vh;
+}
+
+ul li{
+    padding: 1vh 4vw;
+}
+
+
+  .notificacion{
+    color:black; text-align: center; font-size: 1.5em; background-color:rgba(83, 83, 78, 0.296); border-end-start-radius: 195px; border-end-end-radius: 195px;
+  }
+  .notificacion:hover{ 
+    background-color: rgba(0, 0, 0, 0.364);
+    transition: 150ms;
+  }
+
+
+nav .btn{
+    margin-right:  20px;
+}
+
+
+    /*CATALOGO Y ARTICULOS*/
+    #catalogo{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        padding-right: 0px;
+        margin: 30px 50px;
+        width: auto;
+        justify-content: center;
+        justify-self: center;
+    }
+    article{
+        padding: 10px 5px;
+        width: 250px;
+        margin-bottom: 30px;
+        margin: 30px 50px;
+        transition: 200ms;
+        border-radius: 20px;
+    }
+    
+    
+    article:hover{
+        transform:scale(1.03);
+        transition: 200ms;
+        cursor: pointer;
+        /* offset-x | offset-y | blur-radius | color */
+        /*box-shadow: 10px 5px 5px blue;*/
+    }
+    
+    hr{ 
+        color: rgba(171, 151, 151, 0.634);
+        border: 1px solid;
+    }
+    
+    article h3{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    
+
+/*Contenido de productos*/
+.descripcion{
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    align-items: center;
+    display: block;
+    margin: 10px auto;
+}
+
+
+/*PRECIOS*/
+.precioAnterior{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.precioDespues{
+    font-size:x-large;
+    text-decoration:none;
+}
+
+/*BOTON*/
+.btn-comprar{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-top-right-radius: 20px;
+    border-end-start-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-comprar:hover{
+    background-color: rgba(254, 255, 251, 0.614);
+    transform: scale(1.1);
+    color: black;
+    box-shadow: 2px 2px black;
+}
+
+
+button a{
+    text-decoration: none;
+    color: white;
+}
